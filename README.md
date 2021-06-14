@@ -44,4 +44,4 @@ systemctl start cf_rest_updater.timer
 **7.**
 The script will manage logfiles in /var/log/cfdns/ \
 One log will hold up to 100 lines, the directory holds up to 9 logs. \
-After this it will automaticly delete the oldest log and rename the other files.
+After the initial 9 logs it will automaticly delete the oldest log and rename the other files.
