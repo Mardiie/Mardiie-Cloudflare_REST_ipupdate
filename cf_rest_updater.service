@@ -1,0 +1,6 @@
+[Unit]
+Description=Cloudflare DNS updater service
+
+[Service]
+Type=oneshot
+ExecStart=/your/dir/here/updater.sh

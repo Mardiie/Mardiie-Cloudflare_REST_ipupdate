@@ -1,0 +1,9 @@
+[Unit]
+Description=Cloudflare DNS updater timer 
+
+[Timer]
+OnUnitActiveSec=5m
+OnBootSec=5m
+
+[Install]
+WantedBy=timers.target
