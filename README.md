@@ -1,5 +1,6 @@
 # Mardiie-Cloudflare_REST_ipupdate
 A script written in Bash to automate the process of updating your dynamic IP address to CloudFlare's DNS service.
+The timer is set to run every 5 minutes to check if the IP from which the script is running is equal to the IP listed on the targeted DNS record.
 
 **1.**
 Download the script, unit and timer file.\
