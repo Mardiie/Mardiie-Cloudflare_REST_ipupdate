@@ -14,6 +14,11 @@ Edit the script file and fill in the email, key and workdir variable.\
 Create a file called "records" in the script directory. \
 Each first line should be the domain name to update, each second line should be the CloudFlare REST API URL.
 
+```
+cd <your_work_dir>
+touch records
+```
+
 Example:
 > domain.tld \
 > https://api.cloudflare.com/client/v4/zones/023e105f4ecef8ad9ca31a8372d0c353/dns_records/372e67954025e0ba6aaa6d586b9e0b59 \
